@@ -1,0 +1,50 @@
+Status: FAILED
+Time Taken: 295
+Size: 12
+Timestamp: Fri Mar 11 16:01:48 IST 2022
+TestStep: Create Product
+
+----------------- Messages ------------------------------
+[Valid HTTP Status Codes] Response status code:500 is not in acceptable list of status codes
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://ecommerceservice.herokuapp.com
+Method: POST
+StatusCode: 500
+URL: https://ecommerceservice.herokuapp.com/products
+
+---------------- Request ---------------------------
+Authorization: [Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjI3MmM1YTYyNTk4NDAwMTc0NWMxNTEiLCJpYXQiOjE2NDY4ODY3NTEsImV4cCI6MTY0Njk3MzE1MX0.Beniq6SQ2sPrmbSljTsyiokvpOmvWX1EVfTvNnmGVtk]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [ecommerceservice.herokuapp.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [34]
+Content-Type: [application/json]
+
+POST https://ecommerceservice.herokuapp.com/products HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjI3MmM1YTYyNTk4NDAwMTc0NWMxNTEiLCJpYXQiOjE2NDY4ODY3NTEsImV4cCI6MTY0Njk3MzE1MX0.Beniq6SQ2sPrmbSljTsyiokvpOmvWX1EVfTvNnmGVtk
+Content-Length: 34
+Host: ecommerceservice.herokuapp.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+
+---------------- Response --------------------------
+Server: [Cowboy]
+Etag: [W/"c-3Rk1bge0s6VuJbi+S2m2iU0UGdY"]
+Access-Control-Allow-Origin: [*]
+Connection: [keep-alive]
+#status#: [HTTP/1.1 500 Internal Server Error]
+Content-Length: [12]
+Access-Control-Allow-Headers: [Origin, X-Requested-With, Content-Type, Accept, Authorization]
+Date: [Fri, 11 Mar 2022 10:31:48 GMT]
+X-Powered-By: [Express]
+Content-Type: [application/json; charset=utf-8]
+Via: [1.1 vegur]
+
+{"error":{}}
